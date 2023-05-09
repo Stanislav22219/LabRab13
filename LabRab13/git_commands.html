@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Блог</title>
+    <link rel="stylesheet" href="style_blog.css">
+</head>
+<body>
+    <header>
+        <div class="left_header">
+            <span class="up">Мій особистий блог</span>
+            <span class="down">Станіслав Сухоставський</span>
+        </div>
+        <ul class="right_header">
+            <a href="#"><li>Вхід</li></a>
+            <a href="#"><li>Реєстрація</li></a>
+        </ul>
+    </header>
+    <main>
+        <div class="column">
+            <div>
+                <h2 class="first">Create a Repository</h2>
+                From scratch. Create a new local repository
+               <p class="code"><code>$ git init [project name]</code></p>
+                <p>Download from an existing repository</p>
+               <p class="code"><code>$ git clone my_url</code></p>
+            </div>
+            <div>
+                <h2 class="second">Observe your Repository</h2>
+                <p>List new or modified files not yet committed</p>
+               <p class="code"><code>$ git status</code></p>
+                <p>Show the changes to files not yet staged</p>
+               <p class="code"><code>$ git diff</code></p>
+                <p>Show the changes to staged files</p>
+               <p class="code"><code>$ git diff --cached</code></p>
+                <p>Show all staged and unstaged file changes</p>
+               <p class="code"><code>$ git diff HEAD</code></p>
+                <p>Show the changes between two commit ids</p>
+               <p class="code"><code>$ git diff commitl commit2</code></p>
+                <p>List the change dates and authors for a file</p>
+               <p class="code"><code>$ git blame [file]</code></p>
+                <p>Show the file changes for a commit</p>
+                <p>id and/or file</p>
+               <p class="code"><code>$ git show [commit]: [file]</code></p>
+                <p>Show full change history</p>
+               <p class="code"><code>$ git log</code></p>
+                <p>Show change history for file/directory including diffs</p>
+               <p class="code"><code>$ git log -p [file/directory]</code></p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <span>© Всі права захищені.<br>Розробник: студент групи 102-ТК Сухоставський С.В.</span>
+    </footer>
+</body>
+</html>
